@@ -110,7 +110,7 @@ Lista *resta(Lista *listaA, Lista *listaB) {
     Nodo * auxB =listaB->cabecera;
     Lista * listaResta=newLista();
     while (auxA != NULL){
-        while (auxB->num <= auxA->num){
+        while (auxB != NULL && auxB->num <= auxA->num){
             if(auxB->num == auxA->num){
                 auxA=auxA->sig;
             }

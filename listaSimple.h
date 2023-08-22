@@ -1,7 +1,4 @@
-//
 // Created by Ciro on 17/8/2023.
-//
-
 #ifndef EDYA_LISTASIMPLE_LISTASIMPLE_H
 #define EDYA_LISTASIMPLE_LISTASIMPLE_H
 
@@ -21,4 +18,7 @@ void insertar(Lista * lista, Nodo * nodo);
 void insertarOrdenado(Lista * lista, Nodo * nodo);
 void eliminar(Lista * lista, int num);
 Lista * resta(Lista * listaA, Lista * listaB);
+void eliminarDuplicados(Lista * lista);
+void eliminarADuplicadosB(Lista * listaA, Lista * listaB);
+
 #endif //EDYA_LISTASIMPLE_LISTASIMPLE_H

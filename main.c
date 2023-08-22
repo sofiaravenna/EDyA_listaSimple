@@ -19,8 +19,8 @@ int main() {
     printf("\n");
     imprimir(listaB);
     printf("\n");
-    Lista * listaC = resta(listaA,listaB);
-    imprimir(listaC);
+    Lista * listaResta = resta(listaA,listaB);
+    imprimir(listaResta);
 
     return 0;
 }
